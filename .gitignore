@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# IDE-specific files (e.g., VS Code, WebStorm)
+.idea/
+.vscode/
+
+# Temporary and cache files
+*.swp
+*.swo
+*.tmp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files and generated directories
+dist/
+build/
+coverage/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Local development files
+*.log
+*.local
+
+# Client-side specific build outputs (if applicable)
+client/build/
+client/dist/
+
+# Server-side specific build outputs (if applicable)
+server/build/
+server/dist/
